@@ -1,0 +1,102 @@
+@font-face{
+    font-family: ibmSansLight;
+    src: url(../font/sans/IBMPlexSans-Light.ttf);
+}
+@font-face{
+    font-family: ibmSansThin;
+    src: url(../font/sans/IBMPlexSans-Thin.ttf);
+}
+/*Header Style-----------------------------------------------------------------------------------------------------------------*/
+body{
+    width: 100%;
+    font-family: ibmSansLight, Candara, sans-serif;
+    margin: 0px;
+    background-color: #333;
+}
+a{
+    text-decoration: none;
+    color: #ccc;
+}
+a:active{
+    color: #f33;
+}
+
+#header{
+    width: 100%;
+    height: 60px;
+    background-color: #252525;
+}
+#header-content{
+    height: 50px;
+}
+#header-logo{
+    height: 100%;
+    width: auto;
+    margin: 5px;
+    float: left;
+}
+#nav
+{
+    align-content: right;
+    float: right;
+    text-transform: uppercase;
+    height: 100%;
+}
+#nav-container{
+    list-style-type: none;
+    margin: 0;
+    color: #ccc;
+    font-size: 10pt;
+    letter-spacing: 2pt;
+}
+.nav-button{
+    float: left;
+    height: 60px;
+    padding: 0px 20px;
+    line-height: 60px;
+}
+.nav-button:hover{
+    background-color: #000;
+}
+.nav-link{
+    display: block;
+    text-align: center;
+}
+/*Content Styles---------------------------------------------------------------------------------------------------------------*/
+.main-container-dark{
+    background-color: #333;
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+.main-container-light{
+    background-color: #444;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.main-content{
+    width: 75%;
+    margin: auto;
+    color: #ddd;
+}
+.main-content-bigtext{
+    text-align: center;
+}
+.main-content-bigtext h1{
+    font-size: 300%;
+    font-family: ibmSansThin, Candara, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5pt;
+    margin: 0;
+}
+/*Footer styles----------------------------------------------------------------------------------------------------------------*/
+#footer{
+    background-color: #252525;
+}
+#footer-content{
+    color: #aaa;
+    width: 75%;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}

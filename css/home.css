@@ -1,0 +1,52 @@
+/*Slide Show-------------------------------------------------------------------------------------------------------------------*/
+#main{
+    width: 100%;
+}
+#main-slideshow{
+    width: auto;
+    height: auto;  
+    overflow: hidden;
+}
+#main-slideshow h1{
+    margin: 0;
+    font-size: 500%;
+
+}
+#main-slideshow p{
+    margin: 0;
+    font-size: 18pt;
+}
+#slide-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+#slide-text-container{
+    position: absolute;
+    left: 60px;
+    top: 100px;
+    width: 600px;
+}
+/*Content styles---------------------------------------------------------------------------------------------------------------*/
+.main-content-descimg{
+    display: block;
+    float: left;
+    margin: 10px;
+    margin-left: 0;
+    width: 25%;
+    height: 25%;
+}
+.main-content-desc{
+    display: block;
+    overflow: hidden;
+}
+.main-content-desc h1{
+    font-size: 200%;
+    font-family: ibmSansThin, Candara, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5pt;
+    margin: 0;
+}
